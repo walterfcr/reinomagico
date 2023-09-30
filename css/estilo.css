@@ -1,0 +1,397 @@
+
+
+html{
+    font-size: 18px;
+}
+
+body{
+    font-family: 'Poppins';
+    background-color: #0a1a42;
+    color:#fff;
+    overflow-x: hidden;
+
+}
+
+h1,
+h2,
+h3{
+    font-family: 'Kaushan Script';
+    color:#b9a76f;
+}
+
+
+
+header{
+    position: relative;
+    width: 100%;
+    height:100vh;
+    background-color: #030d29;
+    background-size: cover;
+    background-attachment: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: circle(170vh at 50% -80vh);
+    margin:0 !important;
+}
+
+.nubes{
+    width:100%;
+    height:100vh;
+    position:absolute;
+    background:url(../imagenes/nubes.png) no-repeat 50% 0;
+    z-index: 1000;
+    top:1%;
+}
+
+.titulo{
+    width:100%;
+    height:100vh;
+    position:absolute;
+    background:url(../imagenes/titulo.png) no-repeat 50% 0 ;
+    z-index: 999;
+    top:10%;
+}
+
+.estrellas{
+    width:100%;
+    height:100vh;
+    position:absolute;
+    background:url(../imagenes/estrellas1.png) no-repeat 50% 0;
+    background-size: cover;
+    
+}
+
+.estrellas2{
+    width:100%;
+    height:100vh;
+    position:absolute;
+    background:url(../imagenes/estrellas2.png) no-repeat 50% 0;
+    background-size: cover;
+    
+}
+
+
+#banner{
+    position: relative;
+    width: 100%;
+    height:50vh;
+    background: url(../imagenes/reino.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px #000000b3;
+    overflow: hidden;
+}
+
+#banner h2{
+    z-index: 1000;
+    font-size: 5rem;
+}
+
+.estrellas3{
+    width:100%;
+    height:100vh;
+    position:absolute;
+    background:url(../imagenes/estrellas3.png) ;
+    background-size: cover;
+    top:90%;
+    
+}
+
+.videos{
+    background-color: #030d29;
+}
+
+.listas h3 {
+    text-align: center;
+    color:#fff;
+}
+
+.listas li{
+    list-style: none;
+}
+
+.listas li::before{
+	font-family:"Font Awesome 5 Free";
+	content:"\2d";
+	margin-right:8px;
+}
+
+.party img{
+    width:70%;
+    float:right;
+}
+
+.wrap{
+    margin:0 auto;
+    width:80%;
+}
+
+
+.parrafoIzq{
+    padding:0 0 0 15%;
+}
+
+.parrafoDer{
+    padding:0 15% 0 0;
+}
+
+.historia img{
+    width:50%;
+}
+
+.ocultar{
+    display:none;
+}
+
+.linea img{
+    width:30%;
+}
+
+#galeria{
+    background-color: #030d29;
+}
+
+.galeriaWrap{
+    width:70%;
+    margin:0 auto;
+}
+
+.galeria a{
+    opacity:1;
+    filter:alpha(opacity=20);
+    -ms-transition:all 0.5s ease-in;
+    -moz-transition:all 0.5s ease-in;
+    -o-transition:all 0.5s ease-in;
+    -webkit-transition:all 0.5s ease-in;
+    transition:all 0.5s ease-in;
+}
+
+.galeria a:hover{
+    opacity:0.4;
+    filter:alpha(opacity=4);
+    -ms-transition:all 0.5s ease-out;
+    -moz-transition:all 0.5s ease-out;
+    -o-transition:all 0.5s ease-out;
+    -webkit-transition:all 0.5s ease-out;
+    transition:all 0.5s ease-out;
+}
+
+.botones img{
+    display: inline-block;
+    width:70px;
+}
+
+#pestanas{
+    cursor: pointer;
+}
+
+#pestanas a{
+    color:#fff;
+    border: 1px solid rgb(166, 163, 163);
+}
+
+#pestanas a:hover{
+    color:#0e0e1a;
+    background-color: #b9a76f;
+    font-weight: bold;
+}
+
+.activo{
+    background-color: #b9a76f;
+}
+
+.activo a{
+    color:#0e0e1a !important;
+    font-weight: bold;
+}
+
+.entradas ul{
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.entradas li{
+    display: inline-block;
+    padding:0 30px;
+}
+
+.entradas a{
+    opacity:1;
+    filter:alpha(opacity=20);
+    -ms-transition:all 0.5s ease-in;
+    -moz-transition:all 0.5s ease-in;
+    -o-transition:all 0.5s ease-in;
+    -webkit-transition:all 0.5s ease-in;
+    transition:all 0.5s ease-in;
+}
+.entradas a:hover{
+    opacity:0.4;
+    filter:alpha(opacity=4);
+    -ms-transition:all 0.5s ease-out;
+    -moz-transition:all 0.5s ease-out;
+    -o-transition:all 0.5s ease-out;
+    -webkit-transition:all 0.5s ease-out;
+    transition:all 0.5s ease-out;
+}
+
+hr{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 0 50px;
+}
+
+iframe{
+    width: 100%;
+}
+
+footer{
+    background-color: #030d29; 
+    margin:0 !important;
+}
+
+footer p{
+        color:#fff;
+        font-size: 1.2rem;
+        padding:50px 0 ;
+   
+}
+
+
+
+@media (min-width: 360px) and (max-width: 575px){
+    html{
+        font-size: 16px;
+    }
+
+    .nubes{
+        background:url(../imagenes/nubes5.png) no-repeat 50% 0;
+        top:10%;
+    }
+
+    .titulo{
+        background:url(../imagenes/titulo5.png) no-repeat 50% 0 ;
+    }
+
+    .parrafoIzq{
+        padding:0 10%;
+    }
+    
+    .parrafoDer{
+        padding:0 10%;
+    }
+
+    .historia img{
+        width:83%;
+        margin:20px 0;
+    }
+
+    #banner h2{
+        font-size: 2.5rem;
+    }
+
+}
+  
+@media (min-width: 576px) and (max-width: 779px){
+    .nubes{
+        background:url(../imagenes/nubes4.png) no-repeat 50% 0;
+        top:10%;
+    }
+    .titulo{
+        background:url(../imagenes/titulo4.png) no-repeat 50% 0 ;
+    }
+
+    .parrafoIzq{
+        padding:0 10%;
+    }
+    
+    .parrafoDer{
+        padding:0 10%;
+    }
+
+    .historia img{
+        width:83%;
+        margin:20px 0;
+    }
+
+    #banner h2{
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 779px){
+    .mostrar{
+        display: none;
+    }
+    .ocultar{
+        display:block;
+    }
+
+    .listas h3{
+        font-size: 2rem;
+    }
+
+    .listas li{
+        font-size: 1.5rem;
+    }
+
+
+}
+
+@media (min-width: 360px) and (max-width: 992px){
+
+    .party img{
+        margin:25px auto !important;
+        display:block !important;
+        float:none;
+    }
+
+}
+
+@media (min-width: 800px) and (max-width: 1199px){
+    
+
+    .titulo{
+        background:url(../imagenes/titulo3.png) no-repeat 50% 0 ;
+    }
+    
+    .nubes{
+        background:url(../imagenes/nubes3.png) no-repeat 50% 0;
+    }
+
+    .parrafoIzq{
+        padding:0 0 0 5% ;
+    }
+
+    .parrafoDer{
+        padding:0 5% 0 0 ;
+    }
+
+    .historia img{
+        width:73%;
+        
+    }
+
+    #banner h2{
+        font-size: 4rem;
+    }
+    
+}
+
+
+@media (min-width: 1200px) and (max-width: 1400px){
+
+.titulo{
+    background:url(../imagenes/titulo2.png) no-repeat 50% 0 ;
+}
+
+.nubes{
+    background:url(../imagenes/nubes2.png) no-repeat 50% 0;
+}
+
+}
+
